@@ -12,7 +12,6 @@ router.post('/register', registerController);
 // GET || Get Balance
 router.post('/get-balance', getUserBalance);
 
-// GET || Get All Users
-router.get('/users', getAllUsers); // Define route to fetch all users
+
 
 module.exports = router;
